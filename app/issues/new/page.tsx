@@ -12,7 +12,6 @@ import { createIssueSchema } from "@/app/validationSchemas";
 import { z } from "zod";
 import ErrorMessage from "@/app/components/ErrorMessage";
 import Spinner from "@/app/components/Spinner";
-import delay from "delay";
 
 const SimpleMDE = dynamic(() => import("react-simplemde-editor"), {
   ssr: false,
