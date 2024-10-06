@@ -1,4 +1,4 @@
-import prisma from "@/prisma/client";
+import { prisma } from "@/prisma/client";
 import { Box, Flex, Grid } from "@radix-ui/themes";
 import delay from "delay";
 import { notFound } from "next/navigation";
